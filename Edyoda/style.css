@@ -1,0 +1,230 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+
+}
+
+header{
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 59px;
+    background-color: #fff;
+    padding: 10px;
+}
+#Topbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo  img{
+    margin-left: 50px;
+    width: 130px;
+}
+nav a{
+    margin-left: 50px;
+    padding-bottom: 3px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 530;
+    color: grey;
+    cursor: pointer;
+}
+/* #main-home{
+    border-bottom: 3.5px solid #5243C0;
+    color: rgba(0, 0, 0, 0.985);
+} */
+
+nav a:hover{
+    transition:  0.2s ease-in, left 0.4s ease-in; 
+    border-bottom: 3.5px solid #5243C0;
+    color: rgba(0, 0, 0, 0.985);
+}
+.btn1{
+    padding-right: 30px;
+}
+.btn1 button{
+    padding: 13px 20px;
+    border-radius: 14px;
+    color: #5243C0;
+    background-color: #FFD8DB;
+    border: none;
+    cursor: pointer;
+    margin-right: 25px; 
+}
+.btn1 button:hover{
+    background-color: rgba(255, 192, 203, 0.971);
+    color: #5243C0;
+    box-shadow: 0px 0px 4px rgba(255, 192, 203, 0.971);
+}
+main{ 
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+section{
+    margin-top: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+section aside{
+    width: 50%;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+.left-part{
+    margin: 0;
+    width: 50%;
+    margin-left: 70px;
+    text-align: left;
+    margin-left: 10%;
+}
+.title h1{
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 1.0;
+    margin: 0;
+    margin-top: 30px;
+}
+.title h1 button{
+    background-color: #5243C0;
+    border: none;
+    padding: 5px;
+    bottom: 4px;
+}
+.title p{
+    color: #5a5855;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 30px;
+}
+#btn2{
+    background-color: #5243C0;
+    color: #ffffff;
+    padding: 20px 30px;
+    margin: 0;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+#btn2:hover{
+    color: white;
+    background-color: #5243B0 ;
+    box-shadow: 0px 0px 4px #5243C0;
+}
+.arrows{
+    width: 50px;
+    position: relative;
+    top: 25px;
+    margin-left: 10px;
+    border-radius: 20px;
+    box-shadow: 0 2px 2px rgb(211, 211, 211);
+    cursor: pointer;
+}
+.arrows:hover{
+    transform: scale(1.05) ;
+}
+.right-part{
+    width: 60%;
+    margin-left: 5%;
+    text-align: right;
+}
+.right-part img{
+    padding-left: 5%;
+    width: 110%;
+    transition: 500ms;
+
+}
+.right-part img:hover{
+    transform: scale(1.05) ;
+}
+.grouping{
+    padding-top: 30px;
+    margin-top: 50px
+}
+.group{
+    background-color: #F7F7F7;
+    width: 100%;
+    padding: 8px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    margin-left: 0;
+    
+}
+/* .group-highlight{
+    background-color: white;
+    box-shadow: 0 0 20px #B2B1B0;
+} */
+
+/*             button ticks blue            */
+.group-highlight{
+    width:33px;
+    height:33px;
+    font-weight: bold;
+    display: inline-block;
+    background: url("./Pictures/tick-gray.png") no-repeat;
+} 
+.group .group-highlight:hover{
+    background: url("./Pictures/tick-blue.png") no-repeat;
+
+}
+.group:hover {
+    background-color: white;
+    box-shadow: 0 0 20px #B2B1B0;
+}
+
+.group a{
+    position: relative;
+    bottom: 10px;
+}
+.group button{
+    position: relative;
+    bottom: 15px;
+    padding: 7px 13px;
+    margin-left: 20px;
+    border-radius: 20px;
+    border: none;
+}
+.group-title{
+    margin-left: 10px;
+    font-weight: 600;
+}
+.group-date{
+    margin-left: 20px;
+    color: #ccc;
+}
+.group-img1{
+    margin-left:50px;
+}
+.group-img2{
+    margin-left:30px;
+}
+.group-img3{
+    margin-left:65px;
+}
+.group-img4{
+    margin-left:85px;
+}
+.group-btn1{
+    background-color: #FFD7DA;
+}
+.group-btn2{
+    background-color: #FD6534;
+}
+.group-btn3{
+    background-color: #9ED095;
+}
+.group-btn4{
+    background-color: #FFE4A0;
+}
