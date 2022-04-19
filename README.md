@@ -1,3 +1,2 @@
 # Stunning-page
-Using HTML and CSS
-Edyoda assignment3
+Using HTML and CSS.
