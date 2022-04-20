@@ -149,12 +149,15 @@ section aside{
     transform: scale(1.05) ;
 }
 .grouping{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding-top: 30px;
     margin-top: 50px
 }
 .group{
     background-color: #F7F7F7;
-    width: 100%;
+    width: 95%;
     padding: 8px;
     border-radius: 15px;
     margin-bottom: 10px;
@@ -191,17 +194,17 @@ section aside{
 .group button{
     position: relative;
     bottom: 15px;
-    padding: 7px 13px;
-    margin-left: 20px;
+    padding: 6px 13px;
+    margin-left: 45px;
     border-radius: 20px;
     border: none;
 }
 .group-title{
-    margin-left: 10px;
+    margin-left: 15px;
     font-weight: 600;
 }
 .group-date{
-    margin-left: 20px;
+    margin-left: 25px;
     color: #ccc;
 }
 .group-img1{
