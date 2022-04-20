@@ -163,6 +163,7 @@ section aside{
     margin-bottom: 10px;
     cursor: pointer;
     margin-left: 0;
+
     
 }
 /* .group-highlight{
@@ -171,7 +172,7 @@ section aside{
 } */
 
 /*             button ticks blue            */
-.group-highlight{
+/* .group-highlight{
     width:33px;
     height:33px;
     font-weight: bold;
@@ -181,7 +182,22 @@ section aside{
 .group .group-highlight:hover{
     background: url("./Pictures/tick-blue.png") no-repeat;
 
+} */
+.group-highlight{
+    display: inline-block;
 }
+
+.group-highlight > .blue {
+    display: none;
+  }
+
+  .group:hover .blue {
+    display: inline;
+  }
+  .group:hover .gray {
+    display: none;
+  }
+
 .group:hover {
     background-color: white;
     box-shadow: 0 0 20px #B2B1B0;
